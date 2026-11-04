@@ -1,0 +1,10 @@
+venv/
+__pycache__/
+*.pyc
+
+# Generated local SDK for the Terraform module (recreated by `pulumi package add`).
+sdks/
+
+# Local terraform-module working files.
+.terraform/
+.terraform.lock.hcl

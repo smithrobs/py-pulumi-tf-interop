@@ -1,0 +1,13 @@
+name: tf-module-in-pulumi-python
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Consume a local Terraform module from a Pulumi program written in Python
+packages:
+  appsegment:
+    source: terraform-module
+    version: 0.2.2
+    parameters:
+      - ./modules/app-segment
+      - appsegment

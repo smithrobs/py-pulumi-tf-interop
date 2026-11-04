@@ -1,0 +1,8 @@
+name: pulumi-hcl-module-in-python
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Consume a local HCL module (as a multi-language component) from a Pulumi Python program
+packages:
+  app-segment: ./modules/app-segment

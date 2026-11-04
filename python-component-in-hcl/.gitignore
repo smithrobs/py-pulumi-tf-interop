@@ -1,0 +1,7 @@
+# Component plugin venv (recreated by `pulumi package add`/`pulumi install`).
+appsegments/venv/
+__pycache__/
+*.pyc
+
+# Generated local SDK for the Python component (recreated by `pulumi package add`).
+sdks/

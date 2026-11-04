@@ -1,0 +1,5 @@
+name: python-component-in-hcl
+runtime: hcl
+description: A Pulumi program written in HCL that consumes a Pulumi component authored in Python
+packages:
+  appsegments: ./appsegments
